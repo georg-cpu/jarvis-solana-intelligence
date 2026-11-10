@@ -1,0 +1,43 @@
+# dependencies & build output
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# local runtime state (config, watchlist, alerts, paper journal, isolated GMGN home)
+data/
+
+# environment files & credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+keypair*
+*keypair*.json
+id_*
+credentials*
+secrets*
+*.secret
+
+# logs
+logs/
+*.log
+npm-debug.log*
+
+# local databases
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# local tooling / OS
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
