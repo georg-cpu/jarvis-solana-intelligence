@@ -1,0 +1,30 @@
+{
+	"name": "jarvis-solana-intelligence",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"engines": {
+		"node": ">=24.0.0"
+	},
+	"scripts": {
+		"start": "node server/index.mjs",
+		"dev": "vite --host 127.0.0.1",
+		"build": "tsc --noEmit && vite build",
+		"typecheck": "tsc --noEmit",
+		"lint": "biome lint server src test",
+		"test": "node --test test/*.test.mjs"
+	},
+	"dependencies": {
+		"react": "19.3.1",
+		"react-dom": "19.3.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.6.6",
+		"@tailwindcss/vite": "4.3.5",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"tailwindcss": "4.3.5",
+		"typescript": "^6.0.0",
+		"vite": "8.3.7"
+	}
+}

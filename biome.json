@@ -1,0 +1,18 @@
+{
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"preset": "none",
+			"correctness": {
+				"noUnreachable": "error",
+				"noUnusedVariables": "error",
+				"useValidTypeof": "error"
+			},
+			"suspicious": {
+				"noDuplicateObjectKeys": "error",
+				"noDoubleEquals": "error",
+				"noDebugger": "error"
+			}
+		}
+	}
+}
